@@ -1,0 +1,12 @@
+---
+import Section from "../Section.astro";
+
+import { interests } from "@cv";
+---
+
+<Section className={Astro.props.className} title="Hobbies">
+    <ul class="list-disc space-y-1 pl-4 text-sm text-skin-muted">
+        {interests.map((interest) => {
+            return <li>{interest}</li>;
+        })}
+    </ul>

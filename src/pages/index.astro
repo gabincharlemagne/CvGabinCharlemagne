@@ -12,6 +12,7 @@ import KeyboardManager from "@/components/KeyboardManager.astro";
 import ThemeSwitch from "@/components/ThemeSwitch.astro";
 
 import { basics } from "@cv";
+import Hobbies from "@/components/sections/Hobbies.astro";
 const { name, label } = basics;
 ---
 
@@ -27,6 +28,7 @@ const { name, label } = basics;
 			<Projects className="print:hidden" />
 			<Experience className="print:col-span-3" />
 			<Skills className="print:hidden" />
+			<Hobbies className="print:col-span-3" />
 		</div>
 		<Tail />
 	</main>
