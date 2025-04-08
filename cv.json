@@ -167,8 +167,8 @@
       "isActive": true,
       "description": "Assistant basé sur un LLM, conçu pour les personnes en situation de handicap, intégrant des technologies d’accessibilité et des interfaces personnalisées.",
       "highlights": [],
-      "url": "",
-      "github": ""
+      "url": "https://i-llm-chatbot.streamlit.app/",
+      "github": "https://github.com/Project-Group-AI/I-LLM"
     },
     {
       "name": "Jeu 3D",
@@ -176,7 +176,7 @@
       "description": "Mécaniques IA et physique en environnement 3D.",
       "highlights": [],
       "url": "",
-      "github": ""
+      "github": "https://github.com/gabincharlemagne/VoleurMusee"
     }
   ]
 }
