@@ -1,364 +1,158 @@
 {
   "basics": {
-    "name": "John Doe",
-    "label": "Junior Full Stack Developer",
-    "image": "/CvGabinCharlemagne/me_avatar.jpg",
-    "email": "john.doe@example.com",
-    "phone": "+1 555-555-5555",
-    "url": "https://johndoe.dev",
-    "summary": "Junior Full Stack Developer with a passion for building web applications. Currently seeking opportunities to further develop my skills in a professional setting.",
+    "name": "Gabin CHARLEMAGNE",
+    "label": "Étudiant Ingénieur ISEN 4ème année IA",
+    "email": "charlemagnegabin@gmail.com",
+    "phone": "+33 7 89 98 92 36",
+    "summary": "Étudiant en 4ème année d'ingénierie IA. Actuellement à la recherche d'un stage de 3 mois en intelligence artificielle à partir de mars 2026 en IDF.",
     "theme": "default",
     "location": {
       "address": "",
-      "postalCode": "10001",
-      "city": "Auckland",
-      "countryCode": "NZ",
-      "region": "New Zealand"
-    },
-    "profiles": [
-      {
-        "network": "LinkedIn",
-        "username": "john-doe",
-        "url": "https://linkedin.com/in/john-doe"
-      },
-      {
-        "network": "X",
-        "username": "john-doe",
-        "url": "https://x.com/john-doe"
-      },
-      {
-        "network": "GitHub",
-        "username": "johndoe",
-        "url": "https://github.com/johndoe"
-      }
-    ]
+      "postalCode": "",
+      "city": "Lille/Paris",
+      "countryCode": "FR",
+      "region": "Île-de-France"
+    }
   },
   "work": [
     {
-      "name": "Tech Startup",
-      "position": "Junior Web Developer",
-      "location_type": "On site",
-      "location": "Auckland, New Zealand",
-      "url": "https://techstartup.com",
-      "startDate": "2024-01-01",
+      "name": "NEXT Model Management",
+      "position": "Modèle",
+      "location_type": "Multiple (Paris, Madrid, Milan)",
+      "location": "Paris, Madrid, Milan",
+      "url": "",
+      "startDate": "2023-09-01",
       "endDate": null,
-      "summary": "Developing and maintaining web applications using JavaScript, HTML, and CSS. Collaborating with the team to implement new features and fix bugs.",
-      "highlights": [
-        "Improved website performance by optimizing code"
-      ],
-      "responsibilities": [
-        "Collaborated with senior developers to design and implement web applications using modern JavaScript frameworks.",
-        "Assisted in debugging and optimizing front-end code to ensure smooth user experiences.",
-        "Participated in code reviews and contributed to improving coding standards within the team."
-      ],
-      "achievements": [
-        "Developing and maintaining web applications using JavaScript, HTML, and CSS. Collaborating with the team to implement new features and fix bugs."
-      ],
-      "skills": [
-        "React",
-        "Tailwind",
-        "GitHub"
-      ]
+      "summary": "Mannequinat international, développant communication et adaptation rapide aux cultures diverses.",
+      "highlights": [],
+      "responsibilities": []
     },
     {
-      "name": "Innovative Solutions",
-      "position": "Junior Software Developer",
-      "location_type": "Hybrid",
-      "location": "Wellington, New Zealand",
-      "url": "https://innovativesolutions.com",
-      "startDate": "2022-06-01",
-      "endDate": "2023-06-01",
-      "summary": "Assisting in the development and maintenance of software applications using Python and Django. Collaborating with cross-functional teams to ensure quality and timely delivery of software solutions.",
-      "highlights": [
-        "Contributed to a major project that streamlined internal workflows, improving efficiency by 30%"
-      ],
-      "responsibilities": [
-        "Developed and maintained backend services using Python and Django.",
-        "Worked closely with front-end developers to integrate user-facing elements with server-side logic.",
-        "Participated in daily stand-ups and bi-weekly sprint planning meetings to ensure alignment with project goals."
-      ],
-      "achievements": [
-        "Successfully implemented a feature that enhanced user authentication, improving security measures."
-      ],
-      "skills": [
-        "Python",
-        "Django",
-        "SQL",
-        "Git"
-      ]
+      "name": "Marvilla Parks",
+      "position": "Employé polyvalent bar",
+      "location_type": "On site",
+      "location": "Carnac, France",
+      "url": "",
+      "startDate": "2024-07-01",
+      "endDate": "2024-08-31",
+      "summary": "Gestion d’un flux d’environ 300 clients/jour, dont 70% anglophones. Compétences relationnelles et organisationnelles.",
+      "highlights": [],
+      "responsibilities": []
     },
     {
-      "name": "Web Agency",
-      "position": "Intern Web Developer",
-      "location_type": "Remote",
-      "location": "Sydney, Australia",
-      "startDate": "2022-06-01",
-      "endDate": "2022-12-01",
-      "summary": "Assisted in developing client websites and applications. Gained hands-on experience with front-end and back-end technologies.",
-      "highlights": [
-        "Completed several client projects successfully"
-      ],
-      "skills": [
-        "HTML",
-        "CSS"
-      ]
-    }
-  ],
-  "volunteer": [
+      "name": "Mysterium Escape Games",
+      "position": "Réceptionniste/Superviseur de parties",
+      "location_type": "On site",
+      "location": "Slanchev Bryag, Bulgarie",
+      "url": "",
+      "startDate": "2023-07-01",
+      "endDate": "2023-08-31",
+      "summary": "Supervision des activités et gestion de l’expérience utilisateur pour des groupes allant jusqu’à 10 personnes. Utilisation du framework Kanban.",
+      "highlights": [],
+      "responsibilities": []
+    },
     {
-      "organization": "Local Coding Club",
-      "position": "Volunteer",
-      "url": "https://codingclub.com/",
-      "startDate": "2021-01-01",
-      "endDate": "2022-01-01",
-      "summary": "Helped organize coding workshops and mentored new members.",
-      "highlights": [
-        "Awarded 'Volunteer of the Month'"
-      ]
+      "name": "STMicroelectronics",
+      "position": "Opérateur de production en salle blanche",
+      "location_type": "On site",
+      "location": "Tours, France",
+      "url": "",
+      "startDate": "2022-07-01",
+      "endDate": "2022-08-31",
+      "summary": "Apprentissage du fonctionnement d'une chaîne de production. Travail en équipe dans un environnement technique de haute précision.",
+      "highlights": [],
+      "responsibilities": []
     }
   ],
+  "volunteer": [],
   "education": [
     {
-      "institution": "State University",
-      "url": "https://stateuniversity.edu",
-      "area": "Computer Science",
-      "studyType": "Bachelor",
+      "institution": "JUNIA ISEN Lille",
+      "url": "",
+      "area": "Intelligence Artificielle",
+      "studyType": "Cycle ingénieur",
+      "startDate": "2023-09-01",
+      "endDate": "2026-06-01",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "JUNIA ADIMAKER Lille",
+      "url": "",
+      "area": "Sciences de l’ingénieur et informatique",
+      "studyType": "Classe préparatoire",
+      "startDate": "2021-09-01",
+      "endDate": "2023-06-01",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Lycée Albert Châtelet Douai",
+      "url": "",
+      "area": "Mathématiques / Physique-Chimie",
+      "studyType": "Baccalauréat général",
       "startDate": "2018-09-01",
-      "endDate": "2022-05-01",
-      "score": "3.8",
-      "courses": [
-        "CS101 - Introduction to Computer Science",
-        "CS102 - Data Structures"
-      ]
-    },
-    {
-      "institution": "Tech Institute",
-      "url": "https://techinstitute.edu",
-      "area": "Software Engineering",
-      "studyType": "Master",
-      "startDate": "2020-09-01",
-      "endDate": "2022-12-01",
-      "score": "3.9",
-      "courses": [
-        "SE201 - Advanced Software Development",
-        "SE202 - Software Architecture and Design"
-      ]
-    },
-    {
-      "institution": "City College",
-      "url": "https://citycollege.edu",
-      "area": "Information Technology",
-      "studyType": "Associate Degree",
-      "startDate": "2017-01-01",
-      "endDate": "2019-12-01",
-      "score": "3.7",
-      "courses": [
-        "IT101 - Networking Fundamentals",
-        "IT102 - Database Management Systems"
-      ]
+      "endDate": "2021-06-01",
+      "score": "Mention bien",
+      "courses": []
     }
   ],
-  "certificates": [
-    {
-      "name": "Full Stack Web Development",
-      "date": "2023-05-01",
-      "issuer": "Online University",
-      "url": "https://onlineuniversity.com/certificates/fullstack"
-    }
-  ],
+  "certificates": [],
   "skills": [
     {
-      "name": "Figma",
-      "level": "Expert",
-      "keywords": [
-        "Design",
-        "UI"
-      ]
-    },
-    {
-      "name": "Gitlab",
+      "name": "Développement IA",
       "level": "Intermediate",
-      "keywords": [
-        "Version Control",
-        "Collaboration",
-        "Source Code"
-      ]
+      "keywords": ["Machine learning", "Deep learning", "NLP"]
     },
     {
-      "name": "HTML",
+      "name": "Analyse de données",
       "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend"
-      ]
+      "keywords": ["R", "SQL"]
     },
     {
-      "name": "CSS",
+      "name": "Python",
       "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Responsive Design"
-      ]
+      "keywords": ["tensorflow", "numpy", "pytorch", "pandas", "scikit-learn"]
     },
     {
-      "name": "JavaScript",
+      "name": "C++",
       "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Backend",
-        "Fullstack"
-      ]
+      "keywords": []
     },
     {
-      "name": "Tailwind",
+      "name": "Développement web",
       "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "CSS Framework",
-        "Responsive Design"
-      ]
+      "keywords": ["HTML", "React", "Next.js"]
     },
     {
-      "name": "TypeScript",
+      "name": "Gestion de projet",
       "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "Backend",
-        "JavaScript Superset"
-      ]
-    },
-    {
-      "name": "Node",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Backend",
-        "JavaScript",
-        "Server"
-      ]
-    },
-    {
-      "name": "MySQL",
-      "level": "Intermediate",
-      "keywords": [
-        "Databases",
-        "SQL",
-        "Data Storage",
-        "Backend"
-      ]
-    },
-    {
-      "name": "Git",
-      "level": "Intermediate",
-      "keywords": [
-        "Version Control",
-        "Collaboration",
-        "Source Code"
-      ]
-    },
-    {
-      "name": "GitHub",
-      "level": "Intermediate",
-      "keywords": [
-        "Version Control",
-        "Collaboration",
-        "Source Code",
-        "Git"
-      ]
-    },
-    {
-      "name": "Next.js",
-      "level": "Beginner",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "React Framework",
-        "SSR",
-        "Static Generation"
-      ]
-    },
-    {
-      "name": "React",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
-        "JavaScript Library",
-        "UI"
-      ]
+      "keywords": ["Agile", "Cycle en V", "Trello", "Git"]
     }
   ],
   "languages": [
-    {
-      "language": "English",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "Spanish",
-      "fluency": "Intermediate"
-    }
+    { "language": "Français", "fluency": "Langue natale" },
+    { "language": "Anglais", "fluency": "B2" }
   ],
   "interests": [
-    {
-      "name": "Technology",
-      "keywords": [
-        "AI",
-        "Blockchain"
-      ]
-    }
+    { "name": "Sports", "keywords": ["skateboard", "course à pied", "basket-ball", "snowboard"] },
+    { "name": "Voyages", "keywords": ["Angleterre", "Émirats", "Arabes Unis", "Danemark", "Suède", "Maroc", "Bulgarie"] }
   ],
-  "references": [
-    {
-      "name": "Jane Smith",
-      "reference": "Reference…"
-    }
-  ],
+  "references": [],
   "projects": [
     {
-      "name": "Personal Portfolio",
-      "isActive": false,
-      "description": "A personal portfolio website to showcase my projects and skills.",
-      "highlights": [
-        "Built with React and Tailwind CSS",
-        "Includes a blog and contact form"
-      ],
-      "url": "https://johndoe.dev",
-      "github": "https://github.com"
-    },
-    {
-      "name": "Weather App",
+      "name": "Chatbot inclusif multicanal",
       "isActive": true,
-      "description": "A web application that provides weather information for any location.",
-      "highlights": [
-        "Built with JavaScript and OpenWeatherMap API",
-        "Responsive design"
-      ],
-      "url": "https://weatherapp.com"
+      "description": "Assistant basé sur un LLM, conçu pour les personnes en situation de handicap, intégrant des technologies d’accessibilité et des interfaces personnalisées.",
+      "highlights": [],
+      "url": ""
     },
     {
-      "name": "Task Manager",
+      "name": "Jeu 3D",
       "isActive": true,
-      "description": "A simple task management app to keep track of daily tasks.",
-      "highlights": [
-        "Built with Node.js and MongoDB",
-        "User authentication and CRUD operations"
-      ],
-      "url": "https://taskmanager.com",
-      "github": "https://github.com"
-    },
-    {
-      "name": "E-commerce Site",
-      "isActive": false,
-      "description": "An online store built with Next.js and Stripe for payment processing.",
-      "highlights": [
-        "Product management and shopping cart functionality",
-        "Secure payment integration"
-      ],
-      "url": "https://ecommerce.com"
+      "description": "Mécaniques IA et physique en environnement 3D.",
+      "highlights": [],
+      "url": ""
     }
   ]
 }
