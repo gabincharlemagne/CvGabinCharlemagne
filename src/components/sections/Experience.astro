@@ -38,7 +38,7 @@ const SKILLS_ICONS: Record<string, any> = {
 ---
 <Section className={Astro.props.className} title="Experience">
   <ul class="flex flex-col">
-    {work.map(({ name, startDate, endDate, position, summary, responsibilities, achievements, url, skills, location, location_type }) => {
+    {work.map(({ name, startDate, endDate, position, summary, responsibilities = [], achievements = [], url, skills, location, location_type }) => {
       const startYear = new Date(startDate).getFullYear()
       const endYear = endDate != null ? new Date(endDate).getFullYear() : "Present"
 
