@@ -90,12 +90,11 @@
   "education": [
     {
       "institution": "JUNIA ISEN Lille",
-      "url": "",
+      "url": "https://www.junia.com/fr/junia/programme-grande-ecole-isen/",
       "area": "Artificial Intelligence",
       "studyType": "Engineering degree program",
       "startDate": "2023-09-01",
       "endDate": "2026-06-01",
-      "score": "",
       "courses": [
         "Project management",
         "Data processing",
@@ -107,7 +106,7 @@
     },
     {
       "institution": "JUNIA ADIMAKER Lille",
-      "url": "",
+      "url": "https://www.junia.com/fr/formations-admissions/prepa-classes-preparatoires-ingenieur/prepa-adimaker/",
       "area": "Engineering and Computer Science",
       "studyType": "Preparatory class",
       "startDate": "2021-09-01",
@@ -120,17 +119,21 @@
       ]
     },
     {
-      "institution": "Lycée Albert Châtelet Douai",
-      "url": "",
-      "area": "Mathematics / Physics-Chemistry",
-      "studyType": "General Baccalaureate",
+      "institution": "Albert Châtelet High School, Douai",
+      "area": "Baccalaureate diploma in Mathematics / Physics-Chemistry - Graduated with honors",
       "startDate": "2018-09-01",
       "endDate": "2021-06-01",
-      "score": "With honors",
       "courses": []
     }
   ],
-  "certificates": [],
+  "certificates": [
+    {
+      "name": "TOEIC",
+      "score": "880",
+      "level": "B2",
+      "url": "https://www.etsglobal.org/fr/en/digital-score-report/C95A6D58888584E0D3C60B85EA4483BAA6D9A080A770B1E2B29533EB5DC8BB85VElCQmxKc2Y5RGRCTDN6NHduTlV5WE52dWNFK3oya3BtYjFxMHlUTlIrdUo2eHN5"
+    }
+  ],
   "skills": [
     {
       "name": "AI Development",
