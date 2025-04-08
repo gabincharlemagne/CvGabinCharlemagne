@@ -46,7 +46,12 @@ interface Work {
   startDate: DateStr;
   endDate: DateStr | null;
   summary: string;
-  highlights: Highlight;
+  highlights?: Highlight;
+  responsibilities?: Array<string>; // Ajout de cette propriété
+  achievements?: Array<string>;    // Ajout de cette propriété
+  location?: string;              // Pour être complet
+  location_type?: string;         // Pour être complet
+  skills?: Array<string>;         // Pour être complet
 }
 
 type DateStr = `${string}-${string}-${string}`;
