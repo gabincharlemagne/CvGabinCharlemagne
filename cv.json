@@ -15,7 +15,12 @@
     },
     "image": "",
     "url": "",
-    "profiles": []
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "url": ""
+      }
+    ]
   },
   "work": [
     {
