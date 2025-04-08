@@ -96,7 +96,7 @@ const SKILLS_ICONS: Record<string, any> = {
                   <div class="flex flex-col gap-1">
                     <h4>Responsibilities:</h4>
                     <ul class="text-skin-muted [&>li]:ml-4 flex list-disc flex-col gap-2">
-                      {responsibilities.map(responsibility => (
+                      {(responsibilities ?? [] as string[]).map((responsibility: string) => (
                         <li>{responsibility}</li>
                       ))}
                     </ul>
@@ -107,7 +107,7 @@ const SKILLS_ICONS: Record<string, any> = {
                   <div class="flex flex-col gap-1">
                     <h4>Achievements:</h4>
                     <ul class="text-skin-muted [&>li]:ml-4 flex list-disc flex-col gap-2">
-                      {achievements.map(achievement => (
+                      {(achievements ?? [] as string[]).map((achievement: string) => (
                         <li>{achievement}</li>
                       ))}
                     </ul>
