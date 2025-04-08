@@ -1,0 +1,296 @@
+{
+  "basics": {
+    "name": "Gabin CHARLEMAGNE",
+    "label": "Étudiant Ingénieur ISEN 4ème année IA",
+    "image": "/me_avatar.jpg",
+    "email": "charlemagnegabin@gmail.com",
+    "phone": "+33 7 89 98 92 36",
+    "url": "",
+    "summary": "L'intelligence artificielle est devenue un moteur clé de la productivité des entreprises. Actuellement en 4ème année, je recherche un stage de 3 mois dans le domaine de l'intelligence artificielle à partir de mars 2026 en IDF.",
+    "theme": "blancnoir",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Lille / Paris",
+      "countryCode": "FR",
+      "region": "France"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "gabin-charlemagne",
+        "url": ""
+      },
+      {
+        "network": "GitHub",
+        "username": "",
+        "url": ""
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "NEXT Model Management",
+      "position": "Modèle",
+      "location_type": "On site",
+      "location": "Paris, Madrid, Milan",
+      "url": "",
+      "startDate": "",
+      "endDate": null,
+      "summary": "Mannequinat international, développant communication et adaptation rapide aux cultures diverses."
+    },
+    {
+      "name": "Marvilla Parks",
+      "position": "Employé polyvalent bar",
+      "location_type": "On site",
+      "location": "Carnac, France",
+      "url": "",
+      "startDate": "2024-07-01",
+      "endDate": "2024-08-31",
+      "summary": "Gestion d'un flux d'environ 300 clients/jour, dont 70% anglophones. Compétences relationnelles et organisationnelles."
+    },
+    {
+      "name": "Mysterium Escape Games",
+      "position": "Réceptionniste/superviseur de parties",
+      "location_type": "On site",
+      "location": "Slanchev Bryag, Bulgarie",
+      "url": "",
+      "startDate": "2023-07-01",
+      "endDate": "2023-08-31",
+      "summary": "Supervision des activités et gestion de l'expérience utilisateur pour des groupes allant jusqu'à 10 personnes. Utilisation du framework Kanban pour organiser et optimiser les tâches.",
+      "skills": ["Kanban"]
+    },
+    {
+      "name": "STMicroelectronics",
+      "position": "Opérateur de production en salle blanche",
+      "location_type": "On site",
+      "location": "Tours, France",
+      "url": "",
+      "startDate": "2022-07-01",
+      "endDate": "2022-08-31",
+      "summary": "Apprentissage du fonctionnement d'une chaîne de production. Travail en équipe dans un environnement technique de haute précision."
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "JUNIA ISEN Lille",
+      "url": "",
+      "area": "Intelligence Artificielle",
+      "studyType": "Cycle ingénieur",
+      "startDate": "2023-09-01",
+      "endDate": "2026-06-30",
+      "score": "",
+      "courses": [
+        "Gestion de projet",
+        "Traitement de données",
+        "Développement IA",
+        "Optimisation",
+        "Technologies web",
+        "Entreprenariat"
+      ]
+    },
+    {
+      "institution": "JUNIA ADIMAKER Lille",
+      "url": "",
+      "area": "Sciences de l'ingénieur",
+      "studyType": "Classe préparatoire",
+      "startDate": "2021-09-01",
+      "endDate": "2023-06-30",
+      "score": "",
+      "courses": [
+        "Sciences de l'ingénieur",
+        "Informatique",
+        "Gestion de projet"
+      ]
+    },
+    {
+      "institution": "Lycée Albert Châtelet Douai",
+      "url": "",
+      "area": "Mathématiques / physique-chimie",
+      "studyType": "Baccalauréat général",
+      "startDate": "2020-09-01",
+      "endDate": "2021-06-30",
+      "score": "Mention bien",
+      "courses": []
+    }
+  ],
+  "certificates": [],
+  "skills": [
+    {
+      "name": "Machine learning",
+      "level": "Intermediate",
+      "keywords": [
+        "Intelligence Artificielle",
+        "Data Science"
+      ]
+    },
+    {
+      "name": "Deep learning",
+      "level": "Intermediate",
+      "keywords": [
+        "Intelligence Artificielle",
+        "Neural Networks"
+      ]
+    },
+    {
+      "name": "NLP",
+      "level": "Intermediate",
+      "keywords": [
+        "Intelligence Artificielle",
+        "Traitement du langage naturel"
+      ]
+    },
+    {
+      "name": "R",
+      "level": "Intermediate",
+      "keywords": [
+        "Analyse de données",
+        "Statistiques"
+      ]
+    },
+    {
+      "name": "SQL",
+      "level": "Intermediate",
+      "keywords": [
+        "Bases de données",
+        "Analyse de données"
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "Advanced",
+      "keywords": [
+        "Tensorflow",
+        "Numpy",
+        "PyTorch",
+        "Pandas",
+        "Scikit-learn"
+      ]
+    },
+    {
+      "name": "C++",
+      "level": "Intermediate",
+      "keywords": [
+        "Programmation"
+      ]
+    },
+    {
+      "name": "HTML",
+      "level": "Intermediate",
+      "keywords": [
+        "Développement web",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Intermediate",
+      "keywords": [
+        "Développement web",
+        "Frontend",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "Next.js",
+      "level": "Intermediate",
+      "keywords": [
+        "Développement web",
+        "Frontend",
+        "React Framework"
+      ]
+    },
+    {
+      "name": "Méthodologies Agile",
+      "level": "Intermediate",
+      "keywords": [
+        "Gestion de projet",
+        "Scrum",
+        "Kanban"
+      ]
+    },
+    {
+      "name": "Cycle en V",
+      "level": "Intermediate",
+      "keywords": [
+        "Gestion de projet"
+      ]
+    },
+    {
+      "name": "Trello",
+      "level": "Intermediate",
+      "keywords": [
+        "Gestion de projet",
+        "Planification"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Intermediate",
+      "keywords": [
+        "Gestion de projet",
+        "Contrôle de version"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Français",
+      "fluency": "Langue natale"
+    },
+    {
+      "language": "Anglais",
+      "fluency": "B2"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Sports",
+      "keywords": [
+        "Skateboard",
+        "Course à pied",
+        "Basket-ball",
+        "Snowboard"
+      ]
+    },
+    {
+      "name": "Voyages",
+      "keywords": [
+        "Angleterre",
+        "Émirats Arabes Unis",
+        "Danemark",
+        "Suède",
+        "Maroc",
+        "Bulgarie"
+      ]
+    }
+  ],
+  "references": [],
+  "projects": [
+    {
+      "name": "Chatbot inclusif multicanal",
+      "isActive": true,
+      "description": "Assistant basé sur un LLM, conçu pour les personnes en situation de handicap, intégrant des technologies d'accessibilité et des interfaces personnalisées.",
+      "highlights": [
+        "LLM",
+        "Accessibilité",
+        "Interfaces personnalisées"
+      ],
+      "url": "",
+      "github": ""
+    },
+    {
+      "name": "Jeu 3D",
+      "isActive": true,
+      "description": "Mécaniques IA et physique en environnement 3D.",
+      "highlights": [
+        "Intelligence Artificielle",
+        "Physique",
+        "Environnement 3D"
+      ],
+      "url": "",
+      "github": ""
+    }
+  ]
+}
