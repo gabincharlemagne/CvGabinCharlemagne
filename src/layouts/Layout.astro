@@ -3,10 +3,11 @@ import { basics } from "@cv";
 import Vengeance from "@/layouts/Vengeance.astro";
 
 interface Props {
-	title: string;
+    title: string;
+    metaTitle?: string;
 }
 
-const { title } = Astro.props;
+const { title, metaTitle } = Astro.props;
 
 const { image, summary, url, theme } = basics;
 ---
@@ -15,7 +16,7 @@ const { image, summary, url, theme } = basics;
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<title>{title}</title>
+		<title>{metaTitle || title}</title>
 		<meta name="description" content={summary} />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
