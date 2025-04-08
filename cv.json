@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Gabin CHARLEMAGNE",
-    "label": "Étudiant Ingénieur ISEN 4ème année IA",
+    "label": "4th Year ISEN Engineering Student in AI",
     "email": "charlemagnegabin@gmail.com",
     "phone": "+33 7 89 98 92 36",
-    "summary": "Étudiant en 4ème année d'ingénierie IA. Actuellement à la recherche d'un stage de 3 mois en intelligence artificielle à partir de mars 2026 en IDF.",
-    "theme": "blancnoir",
+    "summary": "4th-year AI engineering student. Currently seeking a 3-month internship in artificial intelligence starting March 2026 in Île-de-France.",
+    "theme": "blackandwhite",
     "location": {
       "address": "",
       "postalCode": "",
@@ -24,20 +24,20 @@
       {
         "network": "GitHub",
         "username": "gabincharlemagne",
-        "url":"https://github.com/gabincharlemagne"
+        "url": "https://github.com/gabincharlemagne"
       }
     ]
   },
   "work": [
     {
       "name": "NEXT Model Management",
-      "position": "Modèle",
+      "position": "Model",
       "location_type": "Multiple (Paris, Madrid, Milan)",
       "location": "Paris, Madrid, Milan",
       "url": "",
       "startDate": "2023-09-01",
       "endDate": null,
-      "summary": "Mannequinat international, développant communication et adaptation rapide aux cultures diverses.",
+      "summary": "International modeling, developing communication skills and rapid adaptation to diverse cultures.",
       "highlights": [],
       "responsibilities": [],
       "achievements": [],
@@ -45,13 +45,13 @@
     },
     {
       "name": "Marvilla Parks",
-      "position": "Employé polyvalent bar",
+      "position": "Versatile Bar Employee",
       "location_type": "On site",
       "location": "Carnac, France",
       "url": "",
       "startDate": "2024-07-01",
       "endDate": "2024-08-31",
-      "summary": "Gestion d’un flux d’environ 300 clients/jour, dont 70% anglophones. Compétences relationnelles et organisationnelles.",
+      "summary": "Managed a flow of approximately 300 customers per day, of which 70% were English-speaking. Developed interpersonal and organizational skills.",
       "highlights": [],
       "responsibilities": [],
       "achievements": [],
@@ -59,13 +59,13 @@
     },
     {
       "name": "Mysterium Escape Games",
-      "position": "Réceptionniste/Superviseur de parties",
+      "position": "Receptionist / Game Session Supervisor",
       "location_type": "On site",
-      "location": "Slanchev Bryag, Bulgarie",
+      "location": "Slanchev Bryag, Bulgaria",
       "url": "",
       "startDate": "2023-07-01",
       "endDate": "2023-08-31",
-      "summary": "Supervision des activités et gestion de l’expérience utilisateur pour des groupes allant jusqu’à 10 personnes. Utilisation du framework Kanban.",
+      "summary": "Supervised activities and managed user experience for groups of up to 10 people. Utilized the Kanban framework.",
       "highlights": [],
       "responsibilities": [],
       "achievements": [],
@@ -73,13 +73,13 @@
     },
     {
       "name": "STMicroelectronics",
-      "position": "Opérateur de production en salle blanche",
+      "position": "Cleanroom Production Operator",
       "location_type": "On site",
       "location": "Tours, France",
       "url": "",
       "startDate": "2022-07-01",
       "endDate": "2022-08-31",
-      "summary": "Apprentissage du fonctionnement d'une chaîne de production. Travail en équipe dans un environnement technique de haute précision.",
+      "summary": "Learned about the operation of a production line. Collaborated in a high-precision technical environment.",
       "highlights": [],
       "responsibilities": [],
       "achievements": [],
@@ -91,43 +91,54 @@
     {
       "institution": "JUNIA ISEN Lille",
       "url": "",
-      "area": "Intelligence Artificielle",
-      "studyType": "Cycle ingénieur",
+      "area": "Artificial Intelligence",
+      "studyType": "Engineering degree program",
       "startDate": "2023-09-01",
       "endDate": "2026-06-01",
       "score": "",
-      "courses": ["Gestion de projet", "traitement de données", "développement IA", "optimisation", "technologies web", "entreprenariat"]
+      "courses": [
+        "Project management",
+        "Data processing",
+        "AI development",
+        "Optimization",
+        "Web technologies",
+        "Entrepreneurship"
+      ]
     },
     {
       "institution": "JUNIA ADIMAKER Lille",
       "url": "",
-      "area": "Sciences de l’ingénieur et informatique",
-      "studyType": "Classe préparatoire",
+      "area": "Engineering and Computer Science",
+      "studyType": "Preparatory class",
       "startDate": "2021-09-01",
       "endDate": "2023-06-01",
       "score": "",
-      "courses": ["Sciences de l’ingénieur", "informatique", "gestion de projet"]
+      "courses": [
+        "Engineering sciences",
+        "Computer science",
+        "Project management"
+      ]
     },
     {
       "institution": "Lycée Albert Châtelet Douai",
       "url": "",
-      "area": "Mathématiques / Physique-Chimie",
-      "studyType": "Baccalauréat général",
+      "area": "Mathematics / Physics-Chemistry",
+      "studyType": "General Baccalaureate",
       "startDate": "2018-09-01",
       "endDate": "2021-06-01",
-      "score": "Mention bien",
+      "score": "With honors",
       "courses": []
     }
   ],
   "certificates": [],
   "skills": [
     {
-      "name": "Développement IA",
+      "name": "AI Development",
       "level": "Intermediate",
       "keywords": ["Machine learning", "Deep learning", "NLP"]
     },
     {
-      "name": "Analyse de données",
+      "name": "Data Analysis",
       "level": "Intermediate",
       "keywords": ["R", "SQL"]
     },
@@ -142,38 +153,38 @@
       "keywords": []
     },
     {
-      "name": "Développement web",
+      "name": "Web Development",
       "level": "Intermediate",
       "keywords": ["HTML", "React", "Next.js"]
     },
     {
-      "name": "Gestion de projet",
+      "name": "Project Management",
       "level": "Intermediate",
-      "keywords": ["Agile", "Cycle en V", "Trello", "Git"]
+      "keywords": ["Agile", "V-model", "Trello", "Git"]
     }
   ],
   "languages": [
-    { "language": "Français", "fluency": "Langue natale" },
+    { "language": "Français", "fluency": "Native language" },
     { "language": "Anglais", "fluency": "B2" }
   ],
   "interests": [
-    { "name": "Sports", "keywords": ["skateboard", "course à pied", "basket-ball", "snowboard"] },
-    { "name": "Voyages", "keywords": ["Angleterre", "Émirats", "Arabes Unis", "Danemark", "Suède", "Maroc", "Bulgarie"] }
+    { "name": "Sports", "keywords": ["skateboard", "running", "basketball", "snowboarding"] },
+    { "name": "Travel", "keywords": ["England", "Emirates", "United Arab Emirates", "Denmark", "Sweden", "Morocco", "Bulgaria"] }
   ],
   "references": [],
   "projects": [
     {
-      "name": "Chatbot inclusif multicanal",
+      "name": "Multichannel Inclusive Chatbot",
       "isActive": true,
-      "description": "Assistant basé sur un LLM, conçu pour les personnes en situation de handicap, intégrant des technologies d’accessibilité et des interfaces personnalisées.",
+      "description": "LLM-based assistant designed for people with disabilities, integrating accessibility technologies and customized interfaces.",
       "highlights": [],
       "url": "https://i-llm-chatbot.streamlit.app/",
       "github": "https://github.com/Project-Group-AI/I-LLM"
     },
     {
-      "name": "Jeu 3D",
+      "name": "3D Game",
       "isActive": false,
-      "description": "Mécaniques IA et physique en environnement 3D.",
+      "description": "AI mechanics and physics in a 3D environment.",
       "highlights": [],
       "url": "",
       "github": "https://github.com/gabincharlemagne/VoleurMusee"
