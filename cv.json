@@ -9,7 +9,7 @@
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Lille/Paris",
+      "city": "Paris",
       "countryCode": "FR",
       "region": "Île-de-France"
     },
@@ -172,7 +172,7 @@
     },
     {
       "name": "Jeu 3D",
-      "isActive": true,
+      "isActive": false,
       "description": "Mécaniques IA et physique en environnement 3D.",
       "highlights": [],
       "url": "",
