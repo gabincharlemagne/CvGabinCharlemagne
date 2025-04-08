@@ -39,8 +39,8 @@ const SKILLS_ICONS: Record<string, any> = {
 <Section className={Astro.props.className} title="Professional Experience">
   <ul class="flex flex-col">
     {work.map(({ name, startDate, endDate, position, summary, responsibilities, achievements, url, skills, location, location_type }) => {
-      const startDateFormatted = new Date(startDate).toLocaleDateString('fr-FR', { month: 'long', year: 'numeric' });
-      const endDateFormatted = endDate ? new Date(endDate).toLocaleDateString('fr-FR', { month: 'long', year: 'numeric' }) : "Present";
+      const startDateFormatted = new Date(startDate).toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
+      const endDateFormatted = endDate ? new Date(endDate).toLocaleDateString('en-US', { month: 'short', year: 'numeric' }) : "Present";
 
       return (
         <li class="relative print:py-2">
