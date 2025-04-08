@@ -47,6 +47,8 @@ interface Work {
   endDate: DateStr | null;
   summary: string;
   highlights: Highlight;
+  responsibilities?: string[];
+  achievements?: string[];
 }
 
 type DateStr = `${string}-${string}-${string}`;
