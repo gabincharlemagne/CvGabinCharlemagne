@@ -18,7 +18,13 @@
     "profiles": [
       {
         "network": "LinkedIn",
-        "url": ""
+        "username": "gabin-charlemagne",
+        "url": "https://linkedin.com/in/gabin-charlemagne"
+      },
+      {
+        "network": "GitHub",
+        "username": "gabincharlemagne",
+        "url":"https://github.com/gabincharlemagne"
       }
     ]
   },
@@ -90,7 +96,7 @@
       "startDate": "2023-09-01",
       "endDate": "2026-06-01",
       "score": "",
-      "courses": []
+      "courses": ["Gestion de projet", "traitement de données", "développement IA", "optimisation", "technologies web", "entreprenariat"]
     },
     {
       "institution": "JUNIA ADIMAKER Lille",
@@ -100,7 +106,7 @@
       "startDate": "2021-09-01",
       "endDate": "2023-06-01",
       "score": "",
-      "courses": []
+      "courses": ["Sciences de l’ingénieur", "informatique", "gestion de projet"]
     },
     {
       "institution": "Lycée Albert Châtelet Douai",
