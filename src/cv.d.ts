@@ -46,12 +46,7 @@ interface Work {
   startDate: DateStr;
   endDate: DateStr | null;
   summary: string;
-  highlights?: Highlight;
-  responsibilities?: Array<string>;
-  achievements?: Array<string>;
-  location?: string;
-  location_type?: string;
-  skills?: Array<string>;
+  highlights: Highlight;
 }
 
 type DateStr = `${string}-${string}-${string}`;
