@@ -5,7 +5,7 @@
     "email": "charlemagnegabin@gmail.com",
     "phone": "+33 7 89 98 92 36",
     "summary": "Étudiant en 4ème année d'ingénierie IA. Actuellement à la recherche d'un stage de 3 mois en intelligence artificielle à partir de mars 2026 en IDF.",
-    "theme": "default",
+    "theme": "blancnoir",
     "location": {
       "address": "",
       "postalCode": "",
@@ -13,7 +13,7 @@
       "countryCode": "FR",
       "region": "Île-de-France"
     },
-    "image": "",
+    "image": "/CvGabinCharlemagne/me_avatar.png",
     "url": "",
     "profiles": [
       {
