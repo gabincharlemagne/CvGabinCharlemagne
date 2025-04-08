@@ -39,8 +39,13 @@
       "endDate": null,
       "summary": "International modeling, developing communication skills and rapid adaptation to diverse cultures.",
       "highlights": [],
-      "responsibilities": [],
-      "achievements": [],
+      "responsibilities": [
+        "Represented brand image across multiple international markets.",
+        "Adapted quickly to diverse cultural environments."
+      ],
+      "achievements": [
+        "Enhanced communication skills and cultural adaptability through international assignments."
+      ],
       "skills": []
     },
     {
@@ -53,8 +58,13 @@
       "endDate": "2024-08-31",
       "summary": "Managed a flow of approximately 300 customers per day, of which 70% were English-speaking. Developed interpersonal and organizational skills.",
       "highlights": [],
-      "responsibilities": [],
-      "achievements": [],
+      "responsibilities": [
+        "Managed daily operations for high-volume customer service.",
+        "Coordinated service for 300 daily customers, including 70% English speakers."
+      ],
+      "achievements": [
+        "Demonstrated strong interpersonal and organizational skills in a dynamic, fast-paced environment."
+      ],
       "skills": []
     },
     {
@@ -67,8 +77,13 @@
       "endDate": "2023-08-31",
       "summary": "Supervised activities and managed user experience for groups of up to 10 people. Utilized the Kanban framework.",
       "highlights": [],
-      "responsibilities": [],
-      "achievements": [],
+      "responsibilities": [
+        "Supervised game sessions for groups of up to 10 participants.",
+        "Implemented the Kanban framework to optimize task flow and scheduling."
+      ],
+      "achievements": [
+        "Improved operational efficiency and user satisfaction through effective supervision and innovative task management."
+      ],
       "skills": []
     },
     {
@@ -81,8 +96,13 @@
       "endDate": "2022-08-31",
       "summary": "Learned about the operation of a production line. Collaborated in a high-precision technical environment.",
       "highlights": [],
-      "responsibilities": [],
-      "achievements": [],
+      "responsibilities": [
+        "Assisted in the operation of a production line within a high-precision cleanroom environment.",
+        "Collaborated with team members to maintain production quality."
+      ],
+      "achievements": [
+        "Acquired practical experience with technical production processes and contributed to rigorous quality standards."
+      ],
       "skills": []
     }
   ],
