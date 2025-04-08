@@ -140,7 +140,8 @@
     },
     {
       "institution": "Albert Châtelet High School, Douai",
-      "area": "Baccalaureate diploma in Mathematics / Physics-Chemistry - Graduated with honors",
+      "area": "Baccalaureate diploma in Mathematics / Physics-Chemistry",
+      "studyType": "Graduated with honorss",
       "startDate": "2018-09-01",
       "endDate": "2021-06-01",
       "courses": []
