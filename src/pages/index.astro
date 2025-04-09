@@ -26,12 +26,12 @@ const { name } = basics;
             <ThemeSwitch />
             <!-- Ces composants seront cachés en vue mobile ici -->
             <div class="md:block hidden space-y-6">
-                <Skills className="print:hidden" />
+                <Skills className="print:hidden" reducedSpacing={true} />
                 <div class="mt-6">
-                    <Languages className="print:hidden" />
+                    <Languages className="print:hidden" reducedSpacing={true} />
                 </div>
                 <div class="mt-6">
-                    <Certificates className="print:hidden" />
+                    <Certificates className="print:hidden" reducedSpacing={true} />
                 </div>
             </div>
         </div>
@@ -44,9 +44,9 @@ const { name } = basics;
         
         <!-- Section pour afficher les compétences, langues et certificats en bas sur mobile -->
         <div class="col-span-full md:hidden space-y-6">
-            <Skills className="print:hidden" />
-            <Languages className="print:hidden" />
-            <Certificates className="print:hidden" />
+            <Skills className="print:hidden" reducedSpacing={true} />
+            <Languages className="print:hidden" reducedSpacing={true} />
+            <Certificates className="print:hidden" reducedSpacing={true} />
         </div>
         
         <Tail />
