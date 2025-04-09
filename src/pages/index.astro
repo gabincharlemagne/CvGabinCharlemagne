@@ -33,13 +33,15 @@ const { name } = basics;
                 <div class="mt-6">
                     <Certificates className="print:hidden" reducedSpacing={true} />
                 </div>
+				<div class="mt-6">
+                    <Hobbies className="print:hidden" reducedSpacing={true} />
+                </div>
             </div>
         </div>
         <div class="space-y-12 md:col-span-4 print:col-span-1 print:grid print:grid-cols-4 print:gap-2 print:space-y-0">
             <Education className="order-first" />
             <Projects className="print:hidden" />
             <Experience className="print:col-span-3" />
-            <Hobbies className="print:hidden" />
         </div>
         
         <!-- Section pour afficher les compétences, langues et certificats en bas sur mobile -->
@@ -47,6 +49,7 @@ const { name } = basics;
             <Skills className="print:hidden" reducedSpacing={true} />
             <Languages className="print:hidden" reducedSpacing={true} />
             <Certificates className="print:hidden" reducedSpacing={true} />
+			<Hobbies className="print:hidden" reducedSpacing={true} />
         </div>
         
         <Tail />
