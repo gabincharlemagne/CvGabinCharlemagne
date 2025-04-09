@@ -180,7 +180,7 @@
   "references": [],
   "projects": [
     {
-      "name": "I-LLM\nMultichannel Inclusive Chatbot",
+      "name": "I-LLM : Multichannel Inclusive Chatbot",
       "isActive": true,
       "description": "LLM-based assistant designed for people with disabilities, integrating accessibility technologies and customized interfaces.",
       "highlights": [],
@@ -188,7 +188,7 @@
       "github": "https://github.com/Project-Group-AI/I-LLM"
     },
     {
-      "name": "Artefact Escape\n3D Escape Game",
+      "name": "Artefact Escape : 3D Escape Game",
       "isActive": true,
       "description": "Unity3D game where you play as a thief tasked with stealing artworks from a museum without getting caught by an AI-controlled guard.",
       "highlights": [],
