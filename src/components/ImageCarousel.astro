@@ -1,0 +1,61 @@
+---
+export interface Props {
+  images: string[];
+  projectName: string;
+}
+
+const { images = [], projectName } = Astro.props;
+---
+
+{images && images.length > 0 && (
+  <div class="relative mt-3 w-full carousel" x-data="{ activeSlide: 0, totalSlides: images.length }">
+    <div class="overflow-hidden rounded-lg">
+      <div class="flex transition-transform duration-300" x-bind:style="`transform: translateX(-${activeSlide * 100}%)`">
+        {images.map((image, index) => (
+          <div class="w-full flex-shrink-0">
+            <img
+              src={image}
+              alt={`${projectName} screenshot ${index + 1}`}
+              class="aspect-video w-full object-cover"
+              loading="lazy"
+            />
+          </div>
+        ))}
+      </div>
+    </div>
+    
+    {images.length > 1 && (
+      <div class="mt-2 flex justify-center space-x-1">
+        {images.map((_, index) => (
+          <button
+            type="button"
+            class="h-2 w-2 rounded-full bg-skin-muted transition-colors"
+            x-bind:class="activeSlide === {index} ? 'bg-skin-hue' : 'bg-skin-muted'"
+            x-on:click={`activeSlide = ${index}`}
+            aria-label={`Aller à l'image ${index + 1}`}
+          ></button>
+        ))}
+      </div>
+      
+      <button 
+        x-show="activeSlide > 0"
+        x-on:click="activeSlide--"
+        class="absolute left-1 top-1/2 -translate-y-1/2 rounded-full bg-skin-fill/80 p-1 text-skin-base"
+        aria-label="Image précédente">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="m15 18-6-6 6-6"/>
+        </svg>
+      </button>
+      
+      <button 
+        x-show="activeSlide < totalSlides - 1"
+        x-on:click="activeSlide++"
+        class="absolute right-1 top-1/2 -translate-y-1/2 rounded-full bg-skin-fill/80 p-1 text-skin-base"
+        aria-label="Image suivante">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="m9 18 6-6-6-6"/>
+        </svg>
+      </button>
+    )}
+  </div>
+)}
