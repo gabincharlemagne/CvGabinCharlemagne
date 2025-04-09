@@ -148,34 +148,24 @@
   ],
   "skills": [
     {
-      "name": "AI Development",
-      "level": "Intermediate",
+      "name": "Développement IA",
       "keywords": ["Machine learning", "Deep learning", "NLP"]
     },
     {
-      "name": "Data Analysis",
-      "level": "Intermediate",
+      "name": "Analyse de données",
       "keywords": ["R", "SQL"]
     },
     {
-      "name": "Python",
-      "level": "Intermediate",
-      "keywords": ["tensorflow", "numpy", "pytorch", "pandas", "scikit-learn"]
+      "name": "Programmation",
+      "keywords": ["Python", "tensorflow", "numpy", "pytorch", "pandas", "scikit-learn", "C++"]
     },
     {
-      "name": "C++",
-      "level": "Intermediate",
-      "keywords": []
-    },
-    {
-      "name": "Web Development",
-      "level": "Intermediate",
+      "name": "Développement web",
       "keywords": ["HTML", "React", "Next.js"]
     },
     {
-      "name": "Project Management",
-      "level": "Intermediate",
-      "keywords": ["Agile", "V-model", "Trello", "Git"]
+      "name": "Gestion de projet",
+      "keywords": ["Méthodologies Agile", "Cycle en V", "Trello", "Git"]
     }
   ],
   "languages": [
