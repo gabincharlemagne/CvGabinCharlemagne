@@ -187,11 +187,11 @@
       "github": "https://github.com/Project-Group-AI/I-LLM"
     },
     {
-      "name": "3D Game",
+      "name": "Artefact Escape",
       "isActive": false,
-      "description": "AI mechanics and physics in a 3D environment.",
+      "description": "Unity3D game where you play as a thief tasked with stealing artworks from a museum without getting caught by an AI-controlled guard.",
       "highlights": [],
-      "url": "",
+      "url": "https://github.com/gabincharlemagne/VoleurMusee",
       "github": "https://github.com/gabincharlemagne/VoleurMusee"
     }
   ]
