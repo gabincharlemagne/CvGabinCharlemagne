@@ -174,7 +174,8 @@
   ],
   "interests": [
     { "name": "Sports", "keywords": ["skateboard", "running", "basketball", "snowboarding"] },
-    { "name": "Travel", "keywords": ["England", "Emirates", "United Arab Emirates", "Denmark", "Sweden", "Morocco", "Bulgaria"] }
+    { "name": "Travel", "keywords": ["England", "Emirates", "United Arab Emirates", "Denmark", "Sweden", "Morocco", "Bulgaria"] },
+    { "name": "Fashion", "keywords": ["Modelling", "Fashion industry"] }
   ],
   "references": [],
   "projects": [
