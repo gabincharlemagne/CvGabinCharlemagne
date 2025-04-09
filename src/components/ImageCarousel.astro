@@ -8,7 +8,7 @@ const { images = [], projectName } = Astro.props;
 ---
 
 {images && images.length > 0 && (
-  <div class="relative mt-3 w-full" x-data="{ activeSlide: 0, totalSlides: images.length }">
+  <div class="carousel relative mt-3 w-full" x-data={`{ activeSlide: 0, totalSlides: ${images.length} }`}>
     <div class="overflow-hidden rounded-lg">
       <div class="flex transition-transform duration-300" x-bind:style="`transform: translateX(-${activeSlide * 100}%)`">
         {images.map((image, index) => (
@@ -31,7 +31,7 @@ const { images = [], projectName } = Astro.props;
             <button
               type="button"
               class="h-2 w-2 rounded-full bg-skin-muted transition-colors"
-              x-bind:class="activeSlide === {index} ? 'bg-skin-hue' : 'bg-skin-muted'"
+              x-bind:class={`activeSlide === ${index} ? 'bg-skin-hue' : 'bg-skin-muted'`}
               x-on:click={`activeSlide = ${index}`}
               aria-label={`Aller à l'image ${index + 1}`}
             ></button>
@@ -51,7 +51,7 @@ const { images = [], projectName } = Astro.props;
         
         <button 
           type="button"
-          x-show="activeSlide < {images.length - 1}"
+          x-show={`activeSlide < ${images.length - 1}`}
           x-on:click="activeSlide++"
           class="absolute right-2 top-1/2 -translate-y-1/2 rounded-full bg-skin-fill/80 p-1.5 text-skin-base shadow hover:bg-skin-fill"
           aria-label="Image suivante">
