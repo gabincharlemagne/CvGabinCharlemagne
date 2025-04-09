@@ -6,13 +6,13 @@ import { skills } from "@cv";
 ---
 
 <Section className={Astro.props.className} title="Skills">
-    <ul class="list-none space-y-1 text-sm text-black">
+    <ul class="list-none space-y-3 text-sm text-black">
         {skills.map((skill) => {
             return (
                 <li>
-                    <span class="font-semibold">{skill.name}:</span>
+                    <div class="font-bold text-base mb-1">{skill.name}</div>
                     {skill.keywords && skill.keywords.length > 0 && (
-                        <span class="text-black text-sm"> {skill.keywords.join(", ")}</span>
+                        <div class="text-black text-sm ml-2">{skill.keywords.join(", ")}</div>
                     )}
                 </li>
             );
