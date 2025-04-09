@@ -42,20 +42,6 @@ const SOCIAL_ICONS: SocialIcon = {
 >
 `,
 };
-
-const profilesInfo = profiles.map(({ network, url }) => {
-	const icon = SOCIAL_ICONS[network];
-	const firstLetter = network[0].toUpperCase();
-
-	return {
-		id: network,
-		section: "Social",
-		title: `Visit ${network}`,
-		url,
-		icon,
-		hotkey: `ctrl+${firstLetter}`,
-	};
-});
 ---
 
 <footer id="normal-footer" class="no-print flex flex-col gap-2">
