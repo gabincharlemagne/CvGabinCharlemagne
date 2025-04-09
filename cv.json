@@ -178,7 +178,7 @@
     {
       "name": "I-LLM : Multichannel Inclusive Chatbot",
       "isActive": true,
-      "description": "LLM-based assistant designed for people with disabilities, integrating accessibility technologies and customized interfaces.",
+      "description": "LLM-based assistant designed for people with disabilities, integrating accessibility technologies and customized interfaces. This is a group project currently in progress.",
       "highlights": [],
       "url": "https://i-llm-chatbot.streamlit.app/",
       "github": "https://github.com/Project-Group-AI/I-LLM",
