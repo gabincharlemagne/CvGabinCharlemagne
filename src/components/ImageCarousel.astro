@@ -8,7 +8,21 @@ const { images = [], projectName } = Astro.props;
 ---
 
 {images && images.length > 0 && (
-  <div class="carousel relative mt-3 w-full" x-data={`{ activeSlide: 0, totalSlides: ${images.length} }`}>
+  <div class="carousel relative mt-3 w-full" x-data={`{ 
+    activeSlide: 0, 
+    totalSlides: ${images.length},
+    showModal: false,
+    modalImage: '',
+    openModal(image) {
+      this.modalImage = image;
+      this.showModal = true;
+      document.body.style.overflow = 'hidden';
+    },
+    closeModal() {
+      this.showModal = false;
+      document.body.style.overflow = '';
+    }
+  }`}>
     <div class="overflow-hidden rounded-lg">
       <div class="flex transition-transform duration-300" x-bind:style="`transform: translateX(-${activeSlide * 100}%)`">
         {images.map((image, index) => (
@@ -16,8 +30,9 @@ const { images = [], projectName } = Astro.props;
             <img
               src={image}
               alt={`${projectName} screenshot ${index + 1}`}
-              class="aspect-video w-full object-cover"
+              class="aspect-video w-full cursor-pointer object-cover"
               loading="lazy"
+              x-on:click={`openModal('${image}')`}
             />
           </div>
         ))}
@@ -61,5 +76,36 @@ const { images = [], projectName } = Astro.props;
         </button>
       </>
     )}
+    
+    <!-- Modal pour afficher l'image en grand -->
+    <div 
+      x-show="showModal" 
+      x-on:click="closeModal()"
+      class="fixed inset-0 z-50 flex items-center justify-center bg-black/80 p-4"
+      x-transition:enter="transition ease-out duration-300"
+      x-transition:enter-start="opacity-0"
+      x-transition:enter-end="opacity-100"
+      x-transition:leave="transition ease-in duration-200"
+      x-transition:leave-start="opacity-100"
+      x-transition:leave-end="opacity-0"
+      style="display: none;">
+      <div class="relative max-h-[90vh] max-w-[90vw]" x-on:click.stop>
+        <button
+          type="button"
+          x-on:click="closeModal()" 
+          class="absolute -right-4 -top-4 rounded-full bg-skin-fill p-2 text-skin-base shadow"
+          aria-label="Fermer">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 6 6 18"></path>
+            <path d="m6 6 12 12"></path>
+          </svg>
+        </button>
+        <img 
+          x-bind:src="modalImage" 
+          class="max-h-[85vh] max-w-[85vw] rounded-lg" 
+          alt={`${projectName} fullscreen view`} 
+        />
+      </div>
+    </div>
   </div>
 )}
