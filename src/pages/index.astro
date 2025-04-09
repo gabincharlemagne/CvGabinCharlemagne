@@ -14,6 +14,7 @@ import ThemeSwitch from "@/components/ThemeSwitch.astro";
 import { basics } from "@cv";
 import Hobbies from "@/components/sections/Hobbies.astro";
 import Languages from "@/components/sections/Languages.astro";
+import Certificates from "@/components/sections/Certificates.astro";
 const { name } = basics;
 ---
 
@@ -25,6 +26,7 @@ const { name } = basics;
 			<ThemeSwitch />
 			<Skills className="print:hidden" />
 			<Languages className="print:hidden" />
+			<Certificates className="print:hidden" />
 		</div>
 		<div class="space-y-12 md:col-span-4 print:col-span-1 print:grid print:grid-cols-4 print:gap-2 print:space-y-0">
 			<Education className="order-first" />
