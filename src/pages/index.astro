@@ -25,10 +25,14 @@ const { name } = basics;
             <About />
             <ThemeSwitch />
             <!-- Ces composants seront cachés en vue mobile ici -->
-            <div class="md:block hidden">
+            <div class="md:block hidden space-y-6">
                 <Skills className="print:hidden" />
-                <Languages className="print:hidden" />
-                <Certificates className="print:hidden" />
+                <div class="mt-6">
+                    <Languages className="print:hidden" />
+                </div>
+                <div class="mt-6">
+                    <Certificates className="print:hidden" />
+                </div>
             </div>
         </div>
         <div class="space-y-12 md:col-span-4 print:col-span-1 print:grid print:grid-cols-4 print:gap-2 print:space-y-0">
