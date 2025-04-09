@@ -50,7 +50,7 @@ import Arrow from "@/icons/Arrow.astro";
 	{
 		certificates.length > 0 && (
 			<>
-				<h4>Certificates</h4>
+				<h3 class="text-lg font-semibold mt-6 mb-2">Certificates</h3>
 				<ul class="space-y-4 py-3 print:space-y-0">
 					{certificates.map(({ name, date, issuer, url, score, level }) => {
 						const certificateDate = new Date(date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });

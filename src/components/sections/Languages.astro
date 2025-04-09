@@ -1,0 +1,21 @@
+---
+import Section from "../Section.astro";
+
+import { languages } from "@cv";
+
+---
+
+<Section className={Astro.props.className} title="Languages">
+    <ul class="list-none space-y-3 text-sm text-black">
+        {languages.map((languages) => {
+            return (
+                <li>
+                    <div class="font-bold text-base mb-1">{languages.language}</div>
+                    {languages.fluency && languages.fluency.length > 0 && (
+                        <div class="text-black text-sm ml-2">{languages.fluency}</div>
+                    )}
+                </li>
+            );
+        })}
+    </ul>
+</Section>
