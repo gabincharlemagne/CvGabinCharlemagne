@@ -188,7 +188,7 @@
     },
     {
       "name": "Artefact Escape",
-      "isActive": false,
+      "isActive": true,
       "description": "Unity3D game where you play as a thief tasked with stealing artworks from a museum without getting caught by an AI-controlled guard.",
       "highlights": [],
       "url": "https://github.com/gabincharlemagne/VoleurMusee",
