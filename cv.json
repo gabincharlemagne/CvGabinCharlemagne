@@ -1,10 +1,10 @@
 {
   "basics": {
     "name": "Gabin CHARLEMAGNE",
-    "label": "4th Year ISEN Engineering Student in AI",
+    "label": "4th Year Engineering Student in AI",
     "email": "charlemagnegabin@gmail.com",
     "phone": "+33 7 89 98 92 36",
-    "summary": "4th-year AI engineering student. Currently seeking a 3-month internship in artificial intelligence starting March 2026 in Île-de-France.",
+    "summary": "4th-year AI engineering student. Currently seeking a 3-month internship in artificial intelligence starting in March 2026, as well as a 6-month internship starting in June 2026, preferably in Île-de-France.",
     "theme": "default",
     "location": {
       "address": "",
@@ -37,11 +37,10 @@
       "url": "",
       "startDate": "2024-05-01",
       "endDate": null,
-      "summary": "International modeling, developing communication skills and rapid adaptation to diverse cultures.",
+      "summary": "International modeling role focused on enhancing brand visibility and developing strong communication skills across key markets.",
       "highlights": [],
       "responsibilities": [
-        "Represented brand image across multiple international markets.",
-        "Adapted quickly to diverse cultural environments."
+        "Represented the brand in international markets (Paris, Madrid, Milan)."
       ],
       "skills": []
     },
@@ -53,11 +52,10 @@
       "url": "",
       "startDate": "2024-07-01",
       "endDate": "2024-08-31",
-      "summary": "Managed a flow of approximately 300 customers per day, of which 70% were English-speaking. Developed interpersonal and organizational skills.",
+      "summary": "Managed bar operations in a high-volume setting, serving a diverse clientele that included a significant number of English speakers while renforçant mes compétences interpersonnelles et organisationnelles.",
       "highlights": [],
       "responsibilities": [
-        "Managed daily operations for high-volume customer service.",
-        "Coordinated service for 300 daily customers, including 70% English speakers."
+        "Supervised daily operations to ensure efficient customer service."
       ],
       "skills": []
     },
@@ -69,11 +67,10 @@
       "url": "",
       "startDate": "2023-07-01",
       "endDate": "2023-08-31",
-      "summary": "Supervised activities and managed user experience for groups of up to 10 people. Utilized the Kanban framework.",
+      "summary": "Optimized guest experience by managing reception and supervising escape game sessions for small groups.",
       "highlights": [],
       "responsibilities": [
-        "Supervised game sessions for groups of up to 10 participants.",
-        "Implemented the Kanban framework to optimize task flow and scheduling."
+        "Implemented the Kanban framework to streamline session scheduling and task flow."
       ],
       "skills": []
     },
@@ -85,11 +82,10 @@
       "url": "",
       "startDate": "2022-07-01",
       "endDate": "2022-08-31",
-      "summary": "Learned about the operation of a production line. Collaborated in a high-precision technical environment.",
+      "summary": "Gained practical experience in cleanroom production within a high-precision environment.",
       "highlights": [],
       "responsibilities": [
-        "Assisted in the operation of a production line within a high-precision cleanroom environment.",
-        "Collaborated with team members to maintain production quality."
+        "Assisted in production line operations and collaborated to maintain strict quality standards."
       ],
       "skills": []
     }
