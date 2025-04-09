@@ -5,7 +5,7 @@
     "email": "charlemagnegabin@gmail.com",
     "phone": "+33 7 89 98 92 36",
     "summary": "4th-year AI engineering student. Currently seeking a 3-month internship in artificial intelligence starting March 2026 in Île-de-France.",
-    "theme": "red",
+    "theme": "blancnoir",
     "location": {
       "address": "",
       "postalCode": "",
@@ -148,29 +148,29 @@
   ],
   "skills": [
     {
-      "name": "Développement IA",
+      "name": "AI Development",
       "keywords": ["Machine learning", "Deep learning", "NLP"]
     },
     {
-      "name": "Analyse de données",
+      "name": "Data Analysis",
       "keywords": ["R", "SQL"]
     },
     {
-      "name": "Programmation",
+      "name": "Programming",
       "keywords": ["Python", "tensorflow", "numpy", "pytorch", "pandas", "scikit-learn", "C++"]
     },
     {
-      "name": "Développement web",
+      "name": "Web Development",
       "keywords": ["HTML", "React", "Next.js"]
     },
     {
-      "name": "Gestion de projet",
-      "keywords": ["Méthodologies Agile", "Cycle en V", "Trello", "Git"]
+      "name": "Project Management",
+      "keywords": ["Agile methodologies", "V-model", "Trello", "Git"]
     }
   ],
   "languages": [
-    { "language": "Français", "fluency": "Native language" },
-    { "language": "Anglais", "fluency": "B2" }
+    { "language": "French", "fluency": "Native language" },
+    { "language": "English", "fluency": "B2" }
   ],
   "interests": [
     { "name": "Sports", "keywords": ["skateboard", "running", "basketball", "snowboarding"] },
