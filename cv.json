@@ -181,7 +181,11 @@
       "description": "LLM-based assistant designed for people with disabilities, integrating accessibility technologies and customized interfaces.",
       "highlights": [],
       "url": "https://i-llm-chatbot.streamlit.app/",
-      "github": "https://github.com/Project-Group-AI/I-LLM"
+      "github": "https://github.com/Project-Group-AI/I-LLM",
+      "images": [
+        "/CvGabinCharlemagne/i-llm1.png",
+        "/CvGabinCharlemagne/i-llm2.png"
+      ]
     },
     {
       "name": "Artefact Escape : 3D Escape Game",
