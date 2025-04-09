@@ -40,8 +40,8 @@ import Arrow from "@/icons/Arrow.astro";
                                 {area} - {studyType}
 								{courses && courses.length > 0 && (
 								<div class="mt-2">
+									<div class="font-medium text-skin-base mb-1">Main courses</div>
 									<span class="text-sm text-skin-muted">
-									<span class="font-medium">Main courses : </span>
 									{courses.map((course, index) => (
 										<>
 										{course}{index < courses.length - 1 ? ", " : ""}
