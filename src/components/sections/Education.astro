@@ -9,7 +9,7 @@ import Arrow from "@/icons/Arrow.astro";
 <Section className={Astro.props.className} title="Education">
 	<ul class="space-y-4 py-3 print:space-y-0">
 		{
-			education.map(({ institution, startDate, endDate, area, studyType, url }) => {
+			education.map(({ institution, startDate, endDate, area, studyType, url, courses }) => {
 				const startYear = new Date(startDate).getFullYear();
 				const endYear = endDate != null ? new Date(endDate).getFullYear() : "Actual";
 				const years = `${startYear} - ${endYear}`;
@@ -38,6 +38,16 @@ import Arrow from "@/icons/Arrow.astro";
 							</h3>
 							<div class="text-sm text-skin-muted">
                                 {area} - {studyType}
+								{courses && courses.length > 0 && (
+									<div class="mt-2">
+									<h4 class="text-sm font-medium text-skin-base mb-1">Cours principaux :</h4>
+									<ul class="text-sm text-skin-muted list-disc pl-5">
+										{courses.map((course) => (
+										<li>{course}</li>
+										))}
+									</ul>
+									</div>
+								)}
                             </div>
 							<time class="right-0 top-0 text-xs text-skin-muted md:absolute md:block">{years}</time>
 						</div>
