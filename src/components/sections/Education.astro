@@ -39,14 +39,16 @@ import Arrow from "@/icons/Arrow.astro";
 							<div class="text-sm text-skin-muted">
                                 {area} - {studyType}
 								{courses && courses.length > 0 && (
-									<div class="mt-2">
-									<h4 class="text-sm font-medium text-skin-base mb-1">Cours principaux :</h4>
-									<ul class="text-sm text-skin-muted list-disc pl-5">
-										{courses.map((course) => (
-										<li>{course}</li>
-										))}
-									</ul>
-									</div>
+								<div class="mt-2">
+									<span class="text-sm text-skin-muted">
+									<span class="font-medium">Cours : </span>
+									{courses.map((course, index) => (
+										<>
+										{course}{index < courses.length - 1 ? ", " : ""}
+										</>
+									))}
+									</span>
+								</div>
 								)}
                             </div>
 							<time class="right-0 top-0 text-xs text-skin-muted md:absolute md:block">{years}</time>
