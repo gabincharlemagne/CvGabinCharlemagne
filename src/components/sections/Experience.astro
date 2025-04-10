@@ -17,6 +17,7 @@ import Swift from "@/icons/swift.astro"
 import SwiftUI from "@/icons/swiftui.astro"
 import Kotlin from "@/icons/kotlin.astro"
 import Flutter from "@/icons/flutter.astro"
+import Arrow from "@/icons/Arrow.astro";
 
 const SKILLS_ICONS: Record<string, any> = {
   HTML,
@@ -57,6 +58,9 @@ const SKILLS_ICONS: Record<string, any> = {
                     <a class="text-skin-hue" href={url} title={`Ver ${name}`} target="_blank">{name}</a>
                   ) : (
                     <span>{name}</span>
+                    <span class="text-skin-hue transition ease-linear group-hover:-translate-y-0.5 group-hover:translate-x-0.5">
+											<Arrow />
+										</span>
                   )}
                   {url &&
                     <span class="inline-block text-skin-hue print:[&>svg]:hidden">
