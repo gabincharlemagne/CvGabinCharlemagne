@@ -17,7 +17,7 @@ import Swift from "@/icons/swift.astro"
 import SwiftUI from "@/icons/swiftui.astro"
 import Kotlin from "@/icons/kotlin.astro"
 import Flutter from "@/icons/flutter.astro"
-import Arrow from "@/icons/Arrow.astro";
+import Arrow from "@/icons/Arrow.astro"
 
 const SKILLS_ICONS: Record<string, any> = {
   HTML,
@@ -51,26 +51,19 @@ const SKILLS_ICONS: Record<string, any> = {
             </header>
             <div class="relative flex flex-col pb-6 print:pb-0 before:-ml-6 sm:col-span-10 before:w-px print:before:hidden before:absolute before:bg-skin-muted before:h-full before:mt-2">
             <div class="absolute w-2 h-2 bg-skin-muted rounded-full mt-2 -translate-x-[1.71rem] ring print:hidden ring-skin-fill"></div>
-              <h3>
-                <div class="inline-flex items-center text-lg print:text-base leading-tight group/link focus-visible:text-amber-500" aria-label="{position} - {company}">
-                  <span>{position} <span>@</span> 
-                  {url ? (
-                    <a class="text-skin-hue" href={url} title={`Ver ${name}`} target="_blank">{name}</a>
-                  ) : (
-                    <span>{name}</span>
+              <h3 class="mr-6 items-baseline gap-x-2 gap-y-0.5 font-medium">
+                {url ? (
+                  <a target="_blank" class="hover:text-skin-hue group flex items-center gap-[6px] decoration-dotted underline-offset-[5px] hover:underline" href={url} title={`Ver ${name}`}>
+                    <span>{position} <span>@</span> {name}</span>
                     <span class="text-skin-hue transition ease-linear group-hover:-translate-y-0.5 group-hover:translate-x-0.5">
-											<Arrow />
-										</span>
-                  )}
-                  {url &&
-                    <span class="inline-block text-skin-hue print:[&>svg]:hidden">
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="inline-block w-4 h-4 ml-1 transition-transform translate-y-px shrink-0 group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none" aria-hidden="true">
-                        <path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path>
-                      </svg>
+                      <Arrow />
                     </span>
-                  }
+                  </a>
+                ) : (
+                  <span class="group flex items-center gap-[6px] text-skin-base">
+                    <span>{position} <span>@</span> {name}</span>
                   </span>
-                </div>
+                )}
               </h3>
               {(location || location_type) && (
                 <div class="text-sm text-skin-muted">
